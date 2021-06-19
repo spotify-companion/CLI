@@ -1,2 +1,4 @@
 spotify_constants.py
 reddit_constants.py
+.cache
+__pycache__
