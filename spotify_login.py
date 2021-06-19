@@ -6,7 +6,7 @@ import spotify_constants
 
 
 
-class SpotifyLogin():
+class SpotifyLogin:
 	def __init__(self):
 		self.scopes = 'playlist-modify-public playlist-modify-private user-read-private user-read-recently-played'
 		self.CLIENT_ID = spotify_constants.login_constants['CLIENT_ID']
