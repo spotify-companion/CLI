@@ -7,6 +7,7 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 import spotify_login
 import os
+from datetime import datetime
 
 class AnalysePlaylist:
 
@@ -78,7 +79,7 @@ class AnalysePlaylist:
     def save_data(self,df):
         if not os.path.exists('User Data Analysis'):
             os.mkdir('User Data Analysis')
-        df.to_csv('./User Data Analysis/' + self.name + '.csv')
+        df.to_csv('./User Data Analysis/' + self.name + datetime.now().strftime('%H:%m') + '.csv')
 
 
 
@@ -90,5 +91,5 @@ if __name__ == '__main__':
     uri = str(input())
     playlist_URL = 'https://open.spotify.com/playlist/6Oi7R7boGek1iv7WXH01Bm?si=eea123a346fa4bb8'
 
-    analyse = AnalysePlaylist(playlist_id = uri[34:])
+    analyse = AnalysePlaylist(playlist_id = playlist_URL[34:])
     analyse.AnalysePlaylist()
