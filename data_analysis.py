@@ -79,7 +79,7 @@ class AnalysePlaylist:
     def save_data(self,df):
         if not os.path.exists('User Data Analysis'):
             os.mkdir('User Data Analysis')
-        df.to_csv('./User Data Analysis/' + self.name + datetime.now().strftime('%H:%m') + '.csv')
+        df.to_csv('./User Data Analysis/' + self.name +' '+ datetime.now().strftime('%H:%m') + '.csv')
 
 
 
