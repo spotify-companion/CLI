@@ -5,7 +5,7 @@ import spotipy.util as util
 from sklearn.cluster import KMeans
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
-import spotify_login
+import spotify_client as spotify
 import os
 from datetime import datetime
 
@@ -22,7 +22,7 @@ class AnalysePlaylist:
     '''
 
     def __init__(self,playlist_id = None):
-        self.client = spotify_login.SpotifyLogin()
+        self.client = spotify.SpotifyLogin().get_instance()
         self.client.refresh()
         self.sp = self.client.login()
         self.username = self.client.username
@@ -70,7 +70,7 @@ class AnalysePlaylist:
 
         #print(df)
 
-        dataset = pd.DataFrame()
+        # dataset = pd.DataFrame()
         self.save_data(df)
         
         dataset = df.filter(['Year', 'Popularity'])

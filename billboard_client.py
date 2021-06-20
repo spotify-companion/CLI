@@ -4,7 +4,7 @@ import spotipy
 import spotipy.util as util
 from bs4 import BeautifulSoup
 from fuzzywuzzy import fuzz
-import spotify_login
+import spotify_client as spotify
 
 class Billboard:
 
@@ -20,31 +20,32 @@ class Billboard:
 
     def __init__(self,playlist_name = None):
         self.playlist_name = playlist_name
-        self.client = spotify_login.SpotifyLogin()
+        self.client = spotify.SpotifyLogin().get_instance()
         self.client.refresh()
         self.sp = self.client.login()
         self.username = self.client.username
         self.token = self.client.token
         
 
-        if (self.playlist_name == 'decade_end_hot_100'):
+        
+
+    def CreatePlaylist(self,playlist_name):
+
+        self.sp.user_playlist_create(self.username, name = playlist_name)
+        if (playlist_name == 'decade_end_hot_100'):
             self.URL = 'https://www.billboard.com/charts/decade-end/hot-100'
-        if (self.playlist_name == 'year_end_hot_100'):
+        if (playlist_name == 'year_end_hot_100'):
             self.URL = 'https://www.billboard.com/charts/year-end/hot-100-songs'
-        if (self.playlist_name == 'hot_100'):
+        if (playlist_name == 'hot_100'):
             self.URL = 'https://www.billboard.com/charts/hot-100'
 
-
-    def CreatePlaylist(self):
-
-        self.sp.user_playlist_create(self.username, name = self.playlist_name)
         
         playlists = self.sp.user_playlists(self.username)
-
         for playlist in playlists['items']:
             if playlist['name'] == self.playlist_name:
                 playlist_id = playlist['id']
-
+        
+        
         soup = BeautifulSoup(requests.get(self.URL).content,'html.parser')
         songs = []
         artists_temp = []
@@ -86,18 +87,4 @@ class Billboard:
 
 
 if __name__ == '__main__':
-    playlist_names = ['decade_end_hot_100',
-    'year_end_hot_100',
-    'hot_100']
-    print("------Billboard playlist generator----------")
-    print("This client enables you to generate a playlist based on billboard top charts. Select one of the following")
-    print("1. Decade end hot 100\n2. Year end hot 100\n3. Hot 100")
-    n = int(input())
-    try:
-        playlist_name = playlist_names[n-1]
-    except:
-        print("Not a valid choice, quitting...")
-        exit()
-    
-    BB = Billboard(playlist_name = playlist_name)
-    BB.CreatePlaylist()
+    pass

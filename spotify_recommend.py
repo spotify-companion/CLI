@@ -1,7 +1,7 @@
 import random
 import requests
 import pandas as pd
-import spotify_login
+import spotify_client as spotify
 
 
 class SpotifyRecommend:
@@ -14,7 +14,7 @@ class SpotifyRecommend:
     '''
 
     def __init__(self):
-        self.client = spotify_login.SpotifyLogin()
+        self.client = spotify.SpotifyLogin().get_instance()
         self.client.refresh()
         self.sp = self.client.login()
         self.url = 'https://api.spotify.com/v1/recommendations?'
