@@ -3,9 +3,7 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import spotify_constants
-
-
-
+import printing_essentials
 class SpotifyLogin:
     __shared_instance = "SpotifyLogin"
 
@@ -33,13 +31,15 @@ class SpotifyLogin:
         self.token = self.spotifyOAuth.get_access_token()
         self.spotifyObject = spotipy.Spotify(auth=self.token['access_token'])
         self.setUsername()
+        self.log = printing_essentials.Logger().get_instance()
+
 
     def login(self):
         return self.spotifyObject;
 
     def refresh(self):
         if self.spotifyOAuth.is_token_expired(self.token) == True:
-            print("Refreshing token, it has expired...")
+            self.log.info("Refreshing token, it has expired...")
             self.token = self.spotifyOAuth.get_access_token()
             self.spotifyObject = spotipy.Spotify(auth = self.token['access_token'])
 

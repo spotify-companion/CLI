@@ -5,7 +5,8 @@ from fuzzywuzzy import fuzz
 from datetime import datetime
 import billboard_client as billboard
 import youtube_client as youtube
-
+import printing_essentials 
+from alive_progress import alive_bar
 
 class AddSongs:
     __shared_instance = "AddSongs"
@@ -32,20 +33,22 @@ class AddSongs:
         self.now = datetime.now().strftime('%d %b, %y')
         self.reddit_client = reddit.RedditClient().get_instance()
         self.youtube_client = youtube.YoutubeClient().get_instance()
+        self.log = printing_essentials.Logger().get_instance()
+        self.console = printing_essentials.Printer().get_instance().console
 
 
     #TODO Add all the function implementations properly.
     def add_playlist_from_youtube(self):
-        print("------Youtube to Spotify--------")
-        print("Enter the playlist url")
+        self.console.rule("Youtube to Spotify")
+        self.console.print("Enter the playlist url")
         playlist_url = str(input())
         songs, playlist_name = self.youtube_client.get_playlist_songs(playlist_url)
-        print(songs)
+        self.log.info(songs)
         self.make_playlist_with_songs(songs, playlist_name + " - Youtube Music Import", True)
 
 
     def add_playlist_from_reddit(self):
-        print("Adding from the r/Listentothis subreddit:")  
+        self.console.rule('Reddit to spotify') 
         songs = self.reddit_client.get_songs()
         self.make_playlist_with_songs(songs, 'r/Listentothis Import on ' + self.now)
         
@@ -54,6 +57,7 @@ class AddSongs:
         pass
 
     def add_playlist_from_offline(self,path_to_dir, name):
+        self.console.rule('Offline to online')
         curdir = os.chdir(path_to_dir)
         f = []
         for(dirpath, dirnames, filenames) in os.walk(os.curdir):
@@ -63,23 +67,21 @@ class AddSongs:
         for i in f:
             if '.mp3' in i:
                 names.append(i.split('.mp3')[0])
-        # print(names)
+        # self.log.info(names)
         self.make_playlist(name)
         track_ids = self.get_track_ids(names)
         self.add_to_playlist(track_ids, name)
 
     def add_playlist_from_billboard(self):
-        playlist_names = ['decade_end_hot_100',
-        'year_end_hot_100',
-        'hot_100']
-        print("------Billboard playlist generator----------")
-        print("This client enables you to generate a playlist based on billboard top charts. Select one of the following")
-        print("1. Decade end hot 100\n2. Year end hot 100\n3. Hot 100")
+        playlist_names = ['decade_end_hot_100', 'year_end_hot_100', 'hot_100']
+        self.console.rule('Billboard to spotify')
+        self.console.print("This client enables you to generate a playlist based on billboard top charts. Select one of the following")
+        self.console.print("1. Decade end hot 100\n2. Year end hot 100\n3. Hot 100")
         n = int(input())
         try:
             playlist_name = playlist_names[n-1]
         except:
-            print("Not a valid choice, quitting...")
+            self.log.debug("Not a valid choice, quitting...")
             return
         self.bill.CreatePlaylist(playlist_name)
         
@@ -91,7 +93,7 @@ class AddSongs:
         if playlist_id == '':
             self.sp.user_playlist_create(self.username,name)
         else:
-            print("Playlist exists")
+            self.log.debug("Playlist exists")
 
 
     def get_playlist_id(self,playlistname):
@@ -113,13 +115,13 @@ class AddSongs:
                     continue
                 else:
                     for j in range(len(results['tracks']['items'])):
-                        # print(results['tracks']['items'][j])
+                        # self.log.info(results['tracks']['items'][j])
                         track_ids.append(results['tracks']['items'][j]['id'])
-                        # print(track_ids)
+                        # self.log.info(track_ids)
                         break
             except:
                 continue
-        print(track_ids)
+        self.log.info(track_ids)
         return track_ids
 
     def get_artists(self):
@@ -127,7 +129,7 @@ class AddSongs:
         artists = []
         playlists = self.sp.user_playlists(self.username)
         for playlist in playlists['items']:
-            # print(playlist['id'])
+            # self.log.info(playlist['id'])
             res = self.user_playlist_tracks_full(self.username, playlist['id'])
             final_results.extend(res)
         for song in final_results:
@@ -160,10 +162,10 @@ class AddSongs:
         for i in tracks:
             if i not in playlisttracks:
                     res.append(i)
-        # print(res)
+        # self.log.info(res)
 
         self.sp.user_playlist_add_tracks(self.username, playlistID, res) if len(
-            res) > 0 else print("All songs already in playlist")
+            res) > 0 else self.log.info("All songs already in playlist")
 
 
     def make_playlist_with_songs(self,song_list, name, is_ytmusic = False):
@@ -184,7 +186,7 @@ class AddSongs:
             results = self.sp.search(
                 q=f"{sample_data[i]['title']} {sample_data[i]['artist']} ", limit=5, type='track')
             # if track isn't on spotify as queried, go to next track
-            print(results['tracks'])
+            self.log.info(results['tracks'])
             if results['tracks']['total'] == 0:
                 continue
             else:
@@ -203,7 +205,7 @@ class AddSongs:
                 annotation_track_ids.append(
                     results['tracks']['items'][0]['id'])
         track_ids = track_ids + annotation_track_ids
-        # print("Got TrackIDs")
+        # self.log.info("Got TrackIDs")
         return track_ids
 
 

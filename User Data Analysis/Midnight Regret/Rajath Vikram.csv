@@ -1,0 +1,131 @@
+,Name,Album,Artist,Year,Popularity,Duration,Tempo,Key,Valence,Liveness,Danceability,Instrumentalness,Acousticness,Energy
+39,Sweater Weather,I Love You.,The Neighbourhood,2013,88,240.4,124.053,10,0.398,0.101,0.612,0.0177,0.0495,0.807
+19,Dreams - 2004 Remaster,Rumours (Super Deluxe),Fleetwood Mac,1977,85,257.8,120.151,0,0.789,0.128,0.828,0.00428,0.0644,0.492
+56,The Less I Know The Better,Currents,Tame Impala,2015,85,216.32,116.879,4,0.785,0.167,0.64,0.00678,0.0115,0.74
+74,Summer,Motion,Calvin Harris,2014,84,222.53300000000002,127.949,4,0.743,0.141,0.596,0.0178,0.0211,0.856
+22,Passionfruit,More Life,Drake,2017,83,298.94,111.98,11,0.364,0.109,0.809,0.085,0.256,0.463
+61,Are You Bored Yet? (feat. Clairo),Nothing Happens,Wallows,2019,83,178.0,120.023,8,0.64,0.273,0.682,2.32e-05,0.156,0.683
+31,SLOW DANCING IN THE DARK,BALLADS 1,Joji,2018,83,209.273,88.964,3,0.284,0.191,0.515,0.00598,0.544,0.479
+103,Get You (feat. Kali Uchis),Freudian,Daniel Caesar,2017,81,278.17900000000003,74.038,4,0.358,0.0749,0.658,5.2e-05,0.422,0.294
+76,Waves - Robin Schulz Radio Edit,Waves (Robin Schulz Radio Edit),Mr. Probz,2014,80,208.133,119.994,5,0.45,0.0829,0.829,0.00143,0.00821,0.51
+63,Can I Call You Tonight?,Fuzzybrain,Dayglow,2019,80,278.769,129.98,9,0.5,0.419,0.641,0.91,0.132,0.842
+118,Young,Vibes,Vacations,2016,79,189.16,79.935,7,0.594,0.0635,0.498,0.00717,0.00392,0.81
+79,Bound 2,Yeezus,Kanye West,2013,79,229.14600000000002,148.913,1,0.31,0.113,0.367,0.0,0.145,0.665
+25,Dead Man Walking,Dead Man Walking,Brent Faiyaz,2020,79,247.079,143.929,9,0.439,0.096,0.505,0.0,0.279,0.267
+57,Chanel,Chanel,Frank Ocean,2017,79,210.285,110.134,0,0.473,0.112,0.776,0.0,0.874,0.503
+78,Borderline,The Slow Rush,Tame Impala,2020,78,237.8,97.96,5,0.873,0.0824,0.621,9.1e-06,0.0406,0.873
+58,Wish You Were Here,Wish You Were Here,Pink Floyd,1975,77,334.743,122.883,7,0.375,0.832,0.481,0.0114,0.735,0.262
+1,On Melancholy Hill,Plastic Beach,Gorillaz,2010,76,233.866,120.423,2,0.578,0.064,0.689,0.509,1.51e-05,0.739
+37,Midnight City,"Hurry up, We're Dreaming",M83,2011,76,243.96,105.013,11,0.272,0.0658,0.507,1.4e-06,0.0182,0.729
+64,Feels Like We Only Go Backwards,Lonerism,Tame Impala,2012,76,192.96,149.508,2,0.491,0.11,0.303,0.635,0.0277,0.9
+129,Where'd All the Time Go?,"Shame, Shame (Deluxe Edition)",Dr. Dog,2010,76,234.8,166.303,2,0.575,0.115,0.454,0.000969,0.132,0.82
+14,Instant Crush (feat. Julian Casablancas),Random Access Memories,Daft Punk,2013,76,337.56,109.942,10,0.518,0.077,0.775,0.619,0.0422,0.585
+16,1979 - Remastered 2012,Mellon Collie And The Infinite Sadness (Deluxe Edition),The Smashing Pumpkins,1995,76,266.2,126.879,3,0.964,0.0513,0.767,0.583,0.0163,0.787
+84,Stole the Show,Cloud Nine,Kygo,2016,75,223.186,100.034,8,0.475,0.319,0.64,0.0,0.271,0.635
+119,Hurt,American IV: The Man Comes Around,Johnny Cash,2002,75,216.53300000000002,90.379,9,0.163,0.0948,0.534,0.000227,0.649,0.392
+50,Devil In A New Dress,My Beautiful Dark Twisted Fantasy,Kanye West,2010,75,351.946,80.082,8,0.206,0.158,0.435,0.0,0.0175,0.76
+21,Rebel Rebel - 2016 Remaster,Diamond Dogs (2016 Remaster),David Bowie,1974,75,274.746,125.988,9,0.464,0.282,0.635,0.0176,0.209,0.686
+5,Kids,Kids,Current Joys,2016,75,269.142,113.449,6,0.904,0.0756,0.827,0.403,0.508,0.66
+73,Green Light,Melodrama,Lorde,2017,75,234.65200000000002,128.942,2,0.253,0.0879,0.594,8.55e-06,0.0209,0.721
+80,Судно (Борис Рижий),Этажи,Molchat Doma,2018,75,141.394,160.006,1,0.468,0.105,0.484,0.861,0.699,0.749
+81,Roses,Roses,The Chainsmokers,2015,74,226.738,100.001,4,0.343,0.309,0.713,0.00377,0.0435,0.802
+18,Jealous,Jealous,Eyedress,2019,73,122.33800000000001,93.007,9,0.696,0.476,0.474,0.859,0.00491,0.921
+34,Gravity,Continuum,John Mayer,2006,73,245.826,123.799,7,0.237,0.24,0.753,0.00131,0.731,0.326
+36,Trouble,Tell Me I'm Pretty,Cage The Elephant,2015,73,225.973,77.861,0,0.298,0.0992,0.47,0.000439,0.392,0.623
+75,Prayer in C - Robin Schulz Radio Edit,Prayer in C,Lilly Wood and The Prick,2014,73,189.413,123.013,9,0.8,0.599,0.763,5.41e-06,0.024,0.875
+24,Summertime Sadness,Born To Die - The Paradise Edition,Lana Del Rey,2012,73,265.427,111.968,1,0.235,0.122,0.565,1.8e-06,0.0542,0.654
+40,Some Nights,Some Nights,fun.,2012,72,277.04,107.938,0,0.392,0.0927,0.672,6.75e-05,0.0178,0.738
+110,In The Night,Beauty Behind The Madness,The Weeknd,2015,71,235.653,168.022,7,0.539,0.0465,0.505,0.0,0.0796,0.68
+9,Come a Little Closer,Melophobia,Cage The Elephant,2013,71,229.346,148.038,1,0.304,0.151,0.44,1.04e-06,0.0265,0.778
+32,Mardy Bum,"Whatever People Say I Am, That's What I'm Not",Arctic Monkeys,2006,71,175.44,112.215,2,0.312,0.197,0.634,0.0,0.0288,0.599
+122,Pleaser,Pleaser,Wallows,2017,71,187.895,148.893,9,0.385,0.274,0.497,1.98e-05,0.126,0.914
+44,Wait,"Hurry up, We're Dreaming",M83,2011,70,343.253,147.994,2,0.0822,0.0832,0.426,0.13,0.198,0.228
+12,Yellow Ledbetter,Jeremy,Pearl Jam,1991,70,303.586,140.87,4,0.292,0.157,0.504,4.71e-06,0.29,0.354
+128,Kenny,Kenny,Still Woozy,2021,70,194.133,120.028,1,0.394,0.108,0.743,0.0393,0.307,0.49
+60,Read My Mind,Sam's Town,The Killers,2006,70,246.84,132.246,1,0.329,0.104,0.543,7.76e-05,0.00572,0.917
+35,waves - Tame Impala Remix,Rogue Waves,Miguel,2016,70,253.346,108.024,2,0.543,0.254,0.529,5.38e-06,0.308,0.894
+120,Walk,Wasting Light,Foo Fighters,2011,69,255.96,137.107,9,0.194,0.289,0.234,0.000532,3.62e-05,0.865
+71,Breathe (In the Air),The Dark Side of the Moon,Pink Floyd,1973,69,169.534,128.153,11,0.258,0.143,0.431,0.721,0.391,0.375
+109,ghostin,"thank u, next",Ariana Grande,2019,69,271.466,103.777,9,0.11,0.185,0.287,1.8e-05,0.418,0.364
+114,idfc - Tarro Remix,idfc (Tarro Remix),blackbear,2016,69,248.633,139.751,1,0.389,0.109,0.58,1.18e-06,0.481,0.694
+92,Hometown,Blurryface,Twenty One Pilots,2015,69,234.946,120.03,2,0.389,0.357,0.683,0.00208,0.0577,0.753
+6,Robbers,The 1975,The 1975,2013,68,254.50900000000001,99.806,4,0.381,0.335,0.621,1.75e-05,0.000363,0.692
+104,Moonlight,Paradise EP,Chase Atlantic,2016,68,252.0,134.785,11,0.128,0.0977,0.439,0.0,0.00269,0.587
+17,The Hype,Trench,Twenty One Pilots,2018,67,265.373,87.019,9,0.371,0.379,0.53,0.00061,0.0105,0.816
+105,Otherside,beerbongs & bentleys,Post Malone,2018,67,228.226,104.932,9,0.109,0.208,0.652,2.87e-06,0.318,0.643
+72,Brain Damage,The Dark Side of the Moon,Pink Floyd,1973,66,226.666,133.577,2,0.207,0.366,0.322,0.34,0.0726,0.265
+46,Malibu 1992,How Will You Know If You Never Try,COIN,2017,66,341.2,147.366,6,0.497,0.173,0.559,0.132,0.0644,0.32
+112,drugs,i think you think too much of me,EDEN,2016,66,338.333,144.21,4,0.226,0.238,0.484,0.0,0.601,0.444
+11,Freakin' Out On the Interstate,Carnival,Briston Maroney,2018,66,251.906,143.861,4,0.362,0.303,0.452,0.0,0.391,0.79
+0,Outro,"Hurry up, We're Dreaming",M83,2011,65,247.026,108.893,2,0.0784,0.0621,0.162,0.0923,0.0332,0.256
+27,Ribs,Pure Heroine,Lorde,2013,65,258.969,127.978,4,0.0399,0.11,0.511,0.614,0.534,0.472
+4,Telescope,Melophobia,Cage The Elephant,2013,64,228.293,93.568,0,0.176,0.0986,0.589,1.33e-05,0.273,0.481
+38,The Heart of Life,Continuum,John Mayer,2006,64,198.20000000000002,175.958,1,0.357,0.0875,0.495,0.0118,0.958,0.238
+29,Mother,The Wall,Pink Floyd,1979,63,334.89300000000003,135.331,7,0.121,0.0825,0.578,0.00707,0.243,0.15
+51,Line Of Sight (feat. WYNNE & Mansionair),A Moment Apart,ODESZA,2017,63,237.14000000000001,89.992,8,0.173,0.193,0.558,0.00193,0.0334,0.733
+108,The Good Side,Bloom,Troye Sivan,2018,62,268.597,112.039,2,0.311,0.362,0.426,0.00335,0.406,0.284
+42,My Tears Are Becoming A Sea,"Hurry Up, We're Dreaming",M83,2011,62,151.826,48.637,4,0.0723,0.593,0.194,0.386,0.11,0.376
+94,Over the Moon,"Superclean, Vol. II",The Marías,2018,62,182.9,73.518,0,0.387,0.135,0.684,0.404,0.86,0.232
+95,Edge of Desire,Battle Studies,John Mayer,2009,62,332.06600000000003,66.443,9,0.455,0.116,0.606,0.0128,0.326,0.441
+96,Aphrodite,After the Sun,RINI,2018,61,271.0,116.039,6,0.262,0.0997,0.717,0.00293,0.555,0.298
+111,Let's Get Lost (feat. Devon Baldwin),These Things Happen,G-Eazy,2014,61,240.68,117.96,4,0.186,0.074,0.671,3.98e-05,0.103,0.672
+7,Uncomfortable,Uncomfortable,Wallows,2017,61,294.015,142.016,2,0.251,0.286,0.395,0.0204,0.115,0.768
+2,Love/Paranoia,Currents,Tame Impala,2015,61,185.773,111.024,5,0.354,0.171,0.502,0.0,0.0055,0.699
+101,Pink Matter,channel ORANGE (Explicit Version),Frank Ocean,2012,59,268.813,176.569,11,0.494,0.106,0.392,0.000322,0.951,0.233
+69,Song For Zula,Muchacho De Lujo (Deluxe Edition),Phosphorescent,2013,59,370.2,86.016,4,0.524,0.0509,0.492,0.533,0.729,0.626
+48,Afterthought,Nectar,Joji,2020,59,194.871,83.5,1,0.192,0.0931,0.668,0.0766,0.398,0.547
+115,It’s All So Incredibly Loud,Dreamland,Glass Animals,2020,59,259.06,106.989,1,0.121,0.0689,0.394,0.169,0.598,0.278
+70,Borderline - Blood Orange Remix,Borderline (Blood Orange Remix),Tame Impala,2020,58,437.933,174.27,10,0.315,0.114,0.48,0.0552,0.355,0.429
+125,Channel 43 - Radio Edit,Channel 43,deadmau5,2021,58,184.687,128.034,1,0.191,0.101,0.641,0.807,0.00476,0.778
+82,Water Of Love,Dire Straits,Dire Straits,1978,57,325.133,120.918,7,0.939,0.187,0.817,0.0144,0.481,0.552
+68,Sometime Around Midnight,The Airborne Toxic Event (Deluxe Edition),The Airborne Toxic Event,2009,57,303.586,126.009,8,0.148,0.126,0.472,0.00351,0.00229,0.836
+90,Cassie,Chase Atlantic,Chase Atlantic,2017,56,210.8,107.936,5,0.285,0.112,0.618,0.0,0.172,0.73
+66,Tomorrow's Dust,The Slow Rush,Tame Impala,2020,56,326.84000000000003,99.002,0,0.627,0.553,0.616,0.0998,0.0124,0.804
+28,Only The Young,Flamingo,Brandon Flowers,2010,55,258.533,92.378,10,0.179,0.13,0.616,0.0505,0.313,0.549
+102,Uncomfortable,Chase Atlantic,Chase Atlantic,2017,55,340.786,97.015,1,0.18,0.114,0.461,0.000188,0.0457,0.651
+121,Tobacco Sunburst,Chip Chrome & The Mono-Tones,The Neighbourhood,2020,54,296.813,111.01,5,0.446,0.384,0.413,0.508,0.0419,0.474
+85,Forget Me Nots,Straight From The Heart,Patrice Rushen,1982,54,275.813,114.681,6,0.963,0.0387,0.912,0.102,0.139,0.534
+33,Conversations with my Wife,Glory Sound Prep,Jon Bellion,2018,54,206.21,138.187,6,0.321,0.638,0.496,1.85e-05,0.0222,0.487
+45,Memories That You Call (feat. Monsoonsiren) - ODESZA & Golden Features VIP Remix,A Moment Apart (Deluxe Edition),ODESZA,2018,54,219.506,119.996,10,0.193,0.12,0.636,0.861,0.0117,0.575
+113,sobbing in cabo,everything means nothing,blackbear,2020,54,187.023,97.0,7,0.246,0.0997,0.596,1.4e-06,0.0193,0.794
+107,2 Cigarettes,A Good Friend Is Nice,Jack & Jack,2019,53,229.826,111.974,9,0.238,0.103,0.759,0.0,0.271,0.678
+26,Agony,Agony,Beach Fossils,2018,53,205.335,101.927,11,0.0762,0.129,0.566,0.00555,0.706,0.33
+15,We Own the Sky,Saturdays = Youth,M83,2008,52,302.746,140.056,9,0.237,0.101,0.403,0.0433,0.000118,0.747
+83,White Walls (feat. ScHoolboy Q & Hollis),The Heist,Macklemore & Ryan Lewis,2012,52,219.425,116.473,7,0.819,0.406,0.765,0.0,0.0619,0.762
+116,Assassin,Battle Studies,John Mayer,2009,50,314.853,159.929,11,0.593,0.0881,0.54,0.000135,0.302,0.643
+52,A Moment Apart,A Moment Apart (Deluxe Edition),ODESZA,2018,50,234.244,120.018,7,0.075,0.491,0.51,0.673,0.179,0.663
+30,Moon Child,Triggerpunkte,The F16s,2016,50,279.84000000000003,120.016,9,0.549,0.0814,0.606,0.00262,0.0568,0.713
+77,The Bakery,Fluorescent Adolescent,Arctic Monkeys,2007,49,176.52,119.977,11,0.678,0.161,0.574,0.00874,0.00814,0.793
+20,Not the Same Person,Warhol,Acid Ghost,2016,49,212.0,137.37,4,0.375,0.138,0.738,0.9,0.907,0.598
+41,Higher Ground (feat. Naomi Wild),A Moment Apart (Deluxe Edition),ODESZA,2018,49,215.13,104.992,1,0.405,0.273,0.629,0.0198,0.0855,0.851
+89,The Night Does Not Belong To God,Sundowning,Sleep Token,2019,48,303.50600000000003,152.92,8,0.145,0.11,0.415,0.103,0.84,0.522
+93,THE QUIET,Blue Neighbourhood (Deluxe),Troye Sivan,2015,47,226.207,103.985,0,0.405,0.0713,0.631,0.0,0.00951,0.853
+49,Late Night,A Moment Apart (Deluxe Edition),ODESZA,2018,47,228.154,125.061,2,0.429,0.193,0.614,0.00977,0.0364,0.628
+86,From Nowhere - Baardsen Remix,From Nowhere (Remixes),Dan Croll,2014,47,269.596,88.027,1,0.406,0.097,0.605,0.118,0.000885,0.764
+23,Ibuprofen,Unwritten,Alicks,2019,46,284.24,76.035,11,0.0684,0.137,0.493,0.759,0.0364,0.337
+62,Corners Of The Earth (feat. RY X),A Moment Apart (Deluxe Edition),ODESZA,2018,46,305.348,119.896,6,0.0398,0.0876,0.342,0.00332,0.16,0.705
+59,VAULTS,BRONSON,BRONSON,2020,45,244.453,124.015,9,0.156,0.203,0.652,0.868,0.036,0.96
+47,Divide (feat. Kelsey Bulkin),A Moment Apart (Deluxe Edition),ODESZA,2018,45,241.84900000000002,84.988,0,0.252,0.433,0.464,3.51e-06,0.0133,0.571
+54,Reunion,"Hurry Up, We're Dreaming",M83,2011,45,235.374,124.006,7,0.275,0.126,0.428,0.000253,5.85e-05,0.824
+124,Neon Medusa - Edit,Neon Medusa,The Midnight,2021,44,253.22,118.023,10,0.079,0.106,0.692,0.0259,0.0801,0.787
+87,Sleepwalking,Daydream Forever,The Chain Gang Of 1974,2014,44,217.653,105.948,11,0.265,0.113,0.492,0.00053,0.000453,0.802
+117,Eternity,Light Years,Stellardrone,2013,41,380.952,126.018,11,0.0341,0.0821,0.194,0.911,0.904,0.398
+10,The Way Life Goes - Instrumental,The Way Life Goes,B Lou,2017,39,214.15200000000002,163.986,6,0.611,0.0996,0.893,0.873,0.331,0.342
+98,Ghosts,Applause Of A Distant Crowd,VOLA,2018,38,238.16,152.528,10,0.798,0.127,0.52,0.00514,0.00928,0.882
+3,Claudia Lewis,"Hurry Up, We're Dreaming",M83,2011,38,271.72,107.271,0,0.355,0.395,0.426,0.00523,0.00231,0.932
+53,Ok Pal,"Hurry Up, We're Dreaming",M83,2011,38,238.12,105.973,6,0.237,0.0992,0.532,4.13e-05,0.00586,0.898
+99,Dark Signs,Sundowning (Deluxe),Sleep Token,2020,37,268.4,142.012,5,0.301,0.0943,0.593,0.00377,0.0538,0.563
+106,Sugar,Sundowning (Deluxe),Sleep Token,2020,36,292.0,122.0,11,0.0989,0.158,0.598,0.000533,0.132,0.686
+13,Amber,Amber,The F16s,2019,36,206.704,95.069,2,0.593,0.224,0.299,0.77,0.195,0.468
+126,Spirit,Spirit,A.L.I.S.O.N,2021,35,282.0,79.998,11,0.132,0.111,0.592,0.892,0.584,0.439
+100,April Gloom,A Good Friend Is Nice,Jack & Jack,2019,34,182.96,125.948,6,0.476,0.0889,0.752,0.0,0.217,0.62
+55,"Year One, One Ufo","Hurry Up, We're Dreaming",M83,2011,33,197.693,147.047,9,0.369,0.158,0.414,0.687,4.49e-05,0.903
+97,Evolution,Apricity,Syd Arthur,2016,33,241.413,98.024,3,0.679,0.11,0.645,0.53,0.288,0.745
+127,Lanai Lookout,Lanai Lookout,Hello Meteor,2021,33,296.5,102.972,6,0.0914,0.109,0.625,0.932,0.139,0.643
+67,Time Won't Let Me Go,Time Won't Let Me Go,The Bravery,2007,31,251.32,154.765,0,0.407,0.702,0.385,3.84e-05,0.00134,0.867
+123,Rush - J. Laser Remix,Rush (J. Laser Remix),Quentyn,2021,30,314.40000000000003,99.96,9,0.96,0.326,0.727,0.338,0.178,0.748
+8,"I'll Get the Cheque, We Can Split the Regret",Play the Piano Drunk Like a Percussion Instrument Until the Fingers Begin to Bleed a Bit,JBABE,2019,16,226.98600000000002,75.001,1,0.254,0.136,0.482,0.56,0.748,0.55
+43,Youth,Youth,Glass Animals,2016,0,230.693,96.003,9,0.752,0.113,0.648,0.00473,0.108,0.733
+88,Sometimes,Illumination,Miami Horror,2010,0,253.728,124.992,7,0.45,0.175,0.581,7.85e-05,0.0173,0.861
+91,Always,Always,Panama,2013,0,219.05100000000002,116.043,5,0.435,0.143,0.606,0.11,0.000289,0.758
+65,Let It Happen,Currents,Tame Impala,2015,0,467.58500000000004,125.017,1,0.612,0.108,0.602,0.0192,0.00476,0.874
